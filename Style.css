@@ -4,6 +4,10 @@
   overflow: hidden;
 }
 
+.container {
+  width: 100vw;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: right;
@@ -27,82 +31,96 @@
   background-color: #e4f0ec;
   color: rgb(19, 18, 18);
 }
+
 img {
-    border-radius: 100%;
-    border: 40px solid #ddd;
-    padding: 40px;
-    
+  border-radius: 100%;
+  border: 40px solid #ddd;
+  padding: 40px;
 
-  }
-  hr { color: white;
+
 }
-.GD {padding: left;
 
-}++++++
-.top{
-
-    margin-top: -48rem;
-    padding-left: 60rem;
+hr {
+  color: white;
 }
+
+.GD {
+  padding: left;
+
+}
+
+.top {
+
+  margin-top: -48rem;
+  padding-left: 60rem;
+}
+
 /* .h2 {
 text-align: right;
 } */
 .h6 {
-color: #f2f2f2;
+  color: #f2f2f2;
 }
+
 .Ngubo {
-    margin-top: -5rem;
-    padding-left: 60rem;
+  margin-top: -5rem;
+  padding-left: 60rem;
 }
+
 .blanket {
-    margin-bottom: -5rem;
-    padding-right: 60rem;
-}
-table, th, td {
-    border: 3px solid black;
-    border-radius: 30px;
-    padding: 20px;
-    text-align: center;
-    margin: 100px;
-  }
-  .Luh {
-    border: 3px solid black;
-    border-radius: 30px;
-    padding: 20px;
-    text-align: right;
-    margin: 100px;
-  }
-  .skills {
-
-    margin-top: -35rem;
-    padding-left: 50rem;
+  margin-bottom: -5rem;
+  padding-right: 60rem;
 }
 
-
-  
-
-  
-
-  
-  .card {
-    width: 40%;
-    /* padding: 30px 90px 90px 90px; */
-    border: 5px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.3);
-    border-radius: 40px;
-    position: relative;
-    margin-top: -1rem;
-    padding-left: 50rem;
+table,
+th,
+td {
+  border: 3px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+  margin: 100px;
 }
-  
-  
-  .card h2 {
-    color: rgba(0, 0, 0, 0.3);
-    font-size: 40px;
-    text-transform: uppercase;
-  }
-  
-  /* .card .row {
+
+.Luh {
+  border: 3px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  text-align: right;
+  margin: 100px;
+}
+
+.skills {
+
+  margin-top: -35rem;
+  padding-left: 50rem;
+}
+
+
+
+
+
+
+
+.card {
+  width: 40%;
+  /* padding: 30px 90px 90px 90px; */
+  border: 5px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 40px;
+  position: relative;
+  margin-top: -1rem;
+  padding-left: 50rem;
+}
+
+
+.card h2 {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+/* .card .row {
     position: relative;
     width: 100%;
     display: grid;
@@ -110,111 +128,156 @@ table, th, td {
     grid-template-columns: repeat(auto-fit,minmax(40%, 1fr));
     grid-gap: 30px;
   } */
-  
-  .card .row .col {
-    position: relative;
-    width: 100%;
-    margin: 30px 20px 40px 0;
-    transition: 0.5s;
-  }
-  
-  .card .row .form-group {
-    position: relative;
-    width: 100%;
-    height: 40px;
-    color: #0a0909;
-  }
-  
-  .card .row .form-group input,
-  .card .row .form-group textarea {
-    position: absolute;
-    width: 80%;
-    height: 90%;
-    /* background: transparent;
-    outline: none; */
-    font-size: 24px;
-    padding: 10px 0 10px 20px;
-    border: 5px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 10px 10px 0 rgba(11, 11, 11, 0.3);
-    color: #090909;
-    border-radius: 40px;
-  }
-  
-  .card .row .form-group label {
-    line-height: 40px;
-    color: #dc2626;
-    font-size: 15px;
-    margin: 0 0 0 30px;
-    display: block;
-    pointer-events: none;
-  }
-  
-  .row .col:nth-child(6) {
-    margin-top: 64px;
-  }
-  
-  .card .row .form-group input:focus,
-  .card .row .form-group textarea:focus {
-    border: 5px solid #ca638c;
-    transition: all 0.5s;
-  }
-  
-  .card .row input[type="submit"] {
-    border: 5px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
-    padding: 10px;
-    height: 70%;
-    width: 40%;
-    cursor: pointer;
-    outline: none;
-    /* background: transparent;
-    text-transform: uppercase; */
-    color: #c61010;
-    line-height: 40px;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 500;
-    border-radius: 40px;
-    transition: all 0.4s;
-  }
-  
-  .card .row input[type="submit"]:hover {
-    border: 5px solid rgba(255, 255, 255, 1);
-    color: #ffffff;
-    transition: all 0.4s;
-  }
-  
 
-    
-    .card {
-      padding: 20px;
-    }
-    
-    .card h2 {
-      font-size: 20px;
-    }
-    
-    /* .card .row input[type="submit"] {
+.card .row .col {
+  position: relative;
+  width: 100%;
+  margin: 30px 20px 40px 0;
+  transition: 0.5s;
+}
+
+.card .row .form-group {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  color: #0a0909;
+}
+
+.card .row .form-group input,
+.card .row .form-group textarea {
+  position: absolute;
+  width: 80%;
+  height: 90%;
+  /* background: transparent;
+    outline: none; */
+  font-size: 24px;
+  padding: 10px 0 10px 20px;
+  border: 5px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 0 rgba(11, 11, 11, 0.3);
+  color: #090909;
+  border-radius: 40px;
+}
+
+.card .row .form-group label {
+  line-height: 40px;
+  color: #dc2626;
+  font-size: 15px;
+  margin: 0 0 0 30px;
+  display: block;
+  pointer-events: none;
+}
+
+.row .col:nth-child(6) {
+  margin-top: 64px;
+}
+
+.card .row .form-group input:focus,
+.card .row .form-group textarea:focus {
+  border: 5px solid #ca638c;
+  transition: all 0.5s;
+}
+
+.card .row input[type="submit"] {
+  border: 5px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  height: 70%;
+  width: 40%;
+  cursor: pointer;
+  outline: none;
+  /* background: transparent;
+    text-transform: uppercase; */
+  color: #c61010;
+  line-height: 40px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 40px;
+  transition: all 0.4s;
+}
+
+.card .row input[type="submit"]:hover {
+  border: 5px solid rgba(255, 255, 255, 1);
+  color: #ffffff;
+  transition: all 0.4s;
+}
+
+
+
+.card {
+  padding: 20px;
+}
+
+.card h2 {
+  font-size: 20px;
+}
+
+/* .card .row input[type="submit"] {
       width: 100%;
     }
    */
 
-   .btn {
-    background-color: DodgerBlue;
-    border: none;
-    color: white;
-    padding: 12px 30px;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  
-  /* Darker background on mouse-over */
-  .btn:hover {
-    background-color: RoyalBlue;
-  }
-  .contactd {
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
 
-    margin-top: -30rem;
-    padding-left: 50rem;
-    
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+.contactd {
+
+  margin-top: -30rem;
+  padding-left: 50rem;
+
+}
+
+@media (max-width: 768px) {
+
+  .container {
+    width: 100vw;
+    text-align: center;
+  }
+
+
+  img {
+    border-radius: 100%;
+    border: 1rem solid #ddd;
+    padding: 1rem;
+    width: 15rem;
+    margin-top: 2rem;
+  }
+
+  .top {
+
+    margin-top: 0;
+    padding-left: 0rem;
+    padding: 1rem;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 2rem;
+    column-span: 1rem;
+}
+
+th, td {
+  padding: 1rem;
+}
+
+.skills {
+  margin-top: 3rem;
+  padding-left: 0rem;
+}
+
 }
